@@ -1,0 +1,78 @@
+{
+  "name": "squeezer-serve",
+  "version": "0.0.1",
+  "description": "Squeezer Serve Plugin . This plugin enables serving support for local development within the Squeezer Framework.",
+  "homepage": "https://squeezer.io/",
+  "bin": {},
+  "keywords": [
+    "squeezer.io",
+    "squeezer.io framework",
+    "squeezer framework",
+    "squeezer",
+    "squeezer cli",
+    "squeezer generator",
+    "serverless",
+    "squeezer serve",
+    "serverless framework",
+    "microservices",
+    "micro",
+    "service",
+    "microservices",
+    "aws lambda",
+    "lambda",
+    "API",
+    "web",
+    "web app",
+    "swagger",
+    "swagger api docs",
+    "pug",
+    "reactjs",
+    "jade",
+    "aws",
+    "amazon web services lambda",
+    "api gateway",
+    "cloudfront",
+    "azure functions",
+    "google cloud functions",
+    "ibm openwhisk",
+    "iot",
+    "internet of things"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SqueezerIO/squeezer-azure"
+  },
+  "scripts": {
+    "eslint": "eslint . --cache",
+    "jsinspect": "jsinspect -t 50 ./"
+  },
+  "contributors": [
+    {
+      "name": "Nick Chisiu",
+      "email": "nick@squeezer.io",
+      "web": "https://Squeezer.IO/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "chokidar": "^1.7.0",
+    "colors": "^1.1.2",
+    "connect-livereload": "^0.6.0",
+    "express": "^4.15.4",
+    "livereload": "^0.6.2",
+    "precinct": "^3.6.0",
+    "url-pattern": "^1.0.3",
+    "walk-sync": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.10.0",
+    "jsinspect": "^0.12.7"
+  }
+}
