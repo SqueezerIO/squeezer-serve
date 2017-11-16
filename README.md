@@ -22,11 +22,3 @@ plugins:
   - name: squeezer-serve
     path: node_modules
 ```
-
-```javascript
-process.on('serveEvent', (event) => {
-  // event.req - express request hook
-  // event.res - express response hook
-  // event.data - called function data
-});
-```
